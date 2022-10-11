@@ -341,7 +341,7 @@
         display: block;
         background: var(--l_green);
         border-radius: 5px;
-        transition: 0.3s;
+        transition: 0.5s;
     }
     .info__item:hover:before{
         left: 0;
