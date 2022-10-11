@@ -1,0 +1,784 @@
+@media (max-width: 1700px){
+    .section{
+        margin-bottom: 30px;
+    }
+    .map__title{
+        font-size: 45px;
+        padding: 15px 0;
+        line-height: 90%;
+    }
+    .map{
+        height: 450px;
+    }
+    /* sec end */
+    /* footer start */
+    .footer{
+        height: 250px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    /* footer end */
+}
+@media (max-width: 1610px){
+    .main__section{
+        max-width: 1550px;
+        justify-content: space-between;
+    }
+    .card{
+        width: 340px;
+        height: 450px;
+    }
+    .card_img{
+        width: 310px;
+        height: 270px;
+    }
+    .card__title{
+        width: 310px;
+    }
+    .card__text{
+        width: 310px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1600px){
+    .header{
+        margin-bottom: 35px;
+    }
+    .sec__link{
+        padding: 15px 18px;
+    }
+    /* nav end */
+    /* sec start */
+    /* sec end */
+}
+@media (max-width: 1500px){
+    .card{
+        width: 320px;
+        height: 420px;
+    }
+    .card_img{
+        width: 290px;
+        height: 240px;
+    }
+    .card__title{
+        width: 290px;
+    }
+    .card__text{
+        width: 290px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1400px){
+    .intro{
+        height: 650px;
+        background-position: center;
+    }
+    .header{
+        margin-bottom: 10px;
+    }
+    /* section start */
+    .main__section{
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .card{
+        width: 300px;
+        height: 390px;
+    }
+    .card_img{
+        width: 270px;
+        height: 230px;
+    }
+    .card__title{
+        width: 270px;
+        font-size: 18px;
+    }
+    .card__text{
+        width: 270px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .main__section::-webkit-scrollbar{
+        height: 6px;
+        background: rgba(141, 143, 141, 0.295);
+    }
+    .main__section::-webkit-scrollbar-thumb{
+        background: var(--l_green);
+        border-radius: 5px;
+    }
+    .section{
+        margin-bottom: 20px;
+    }
+    /* section end */
+    /* footer start */
+    .map__title{
+        font-size: 40px;
+        padding: 10px 0;
+    }
+    .creator{
+        height: 45px;
+    }
+    .creator__link{
+        font-size: 14px;
+        line-height: 100%;
+    }
+    /* footer end */
+}
+@media (max-width: 1200px){
+    .card{
+        width: 280px;
+        height: 380px;
+    }
+    .card_img{
+        width: 250px;
+        height: 230px;
+    }
+    .card__title{
+        width: 250px;
+    }
+    .card__text{
+        width: 250px;
+        font-size: 13px;
+    }
+    /* footer start */
+    .map__title{
+        font-size: 35px;
+        padding: 8px 0;
+    }
+    .map{
+        height: 400px;
+    }
+    /* footer end */
+}
+@media (max-width: 1100px){
+    .sub_nav{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .sub__info span{
+        font-size: 14px;
+    }
+    .map_sign{
+        font-size: 14px;
+    }
+    .sub_item{
+        font-size: 14px;
+    }
+    /* sub header end */
+    /* nav start */
+    .nav__logo{
+        width: 190px;
+        height: 48px;
+        font-size: 30px;
+        line-height: 120%;
+    }
+    .info__item{
+        padding: 20px 12px;
+        font-size: 15px;
+        line-height: 120%;
+    }
+    /* nav end */
+    /* intro start */
+    .intro{
+        height: 600px;
+    }
+    .intro__title{
+        font-size: 60px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .intro__sub{
+        font-size: 30px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .intro__text{
+        font-size: 16px;
+        line-height: 120%;
+        margin-bottom: 30px;
+    }
+    .intro__price{
+        width: 250px;
+        height: 90px;
+        display: flex;
+        font-size: 45px;
+        line-height: 120%;
+    }
+    .intro__link{
+        width: 220px;
+        height: 45px;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    /* intro end */
+    
+    /* section start */
+    .sec__link{
+        padding: 12px 15px;
+    }
+    .nav__section{
+        margin-bottom: 15px;
+    }
+    /* section end */
+}
+@media (max-width: 1021px){
+    .main__section{
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+        gap: 15px;
+    }
+}
+@media (max-width: 1000px){
+    /* intro start */
+    .intro{
+        height: 550px;
+    }
+    .intro__title{
+        font-size: 50px;
+    }
+    .intro__sub{
+        font-size: 25px;
+    }
+    .intro__text{
+        font-size: 15px;
+    }
+    .intro__info{
+        max-width: 800px;
+    }
+    .intro__price{
+        width: 220px;
+        height: 80px;
+        font-size: 40px;
+    }
+    .intro__link{
+        width: 170px;
+        height: 45px;
+        font-size: 16px;
+    }
+    /* intro end */
+    /* sec start */
+    .card{
+        width: 250px;
+        height: 330px;
+    }
+    .card_img{
+        width: 220px;
+        height: 180px;
+    }
+    .card__title{
+        width: 220px;
+        font-size: 16px;
+    }
+    .card__text{
+        width: 220px;
+        font-size: 12px;
+    }
+    /* sec end */
+}
+@media (max-width: 900px){
+    .sub_nav{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .nav__logo{
+        width: 190px;
+        height: 48px;
+        font-size: 30px;
+        line-height: 120%;
+        margin: 5px 0;
+    }
+    .info__item{
+        padding: 15px 0;
+        padding-bottom: 10px;
+        font-size: 20px;
+        line-height: 120%;
+        text-align: left;
+    }
+    .info__item{
+        position: relative;
+    }
+    .info__item:hover{
+        background: rgba(255, 255, 255, 0);
+    }
+    .close{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    .menu{
+        display: flex;
+    }
+    .checkbox:checked~.nav__info{
+        top: 0;
+        right: 0;
+    }
+    .nav__info{
+        flex-direction: column;
+        position: absolute;
+        background: var(--black);
+        top: 0;
+        right: -355px;
+        width: 350px;
+        align-items: start;
+        padding: 30px 40px;
+        height: 100vh;
+        transition: 0.4s;
+        transition-timing-function: ease-in;
+        z-index: 2;
+}
+    .info__item::before{
+        content: '';
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+        display: block;
+        background: var(--l_green);
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    .info__item:hover:before{
+        left: 0;
+    }
+    .head{
+        overflow: hidden;
+    }
+    /* nav end */
+    /* intro start */
+    .intro{
+        height: 500px;
+    }
+    /* intro end */
+    /* footer start */
+    .footer{
+        height: 180px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .footer__tel{
+        font-size: 18px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+    .footer__link{
+        font-size: 16px;
+        line-height: 100%;
+    }
+    /* footer end */
+}
+@media (max-width: 800px){
+    .nav__logo{
+        width: 160px;
+        height: 42px;
+        font-size: 25px;
+        line-height: 120%;
+        margin: 5px 0;
+    }
+    /* nav end */
+    
+    /* intro start */
+    .intro__price{
+        width: 190px;
+        height: 70px;
+    }
+    .intro__link{
+        width: 160px;
+        height: 40px;
+    }
+    /* intro end */
+    /* section start */
+    .sec__list{
+        justify-content: space-evenly;
+        /* margin-bottom: 10px; */
+    }
+    .sec__link{
+        font-size: 16px;
+    }
+    .card{
+        width: 230px;
+        height: 320px;
+    }
+    .card_img{
+        width: 210px;
+        height: 180px;
+    }
+    .card__title{
+        width: 210px;
+        font-size: 15px;
+    }
+    .card__text{
+        width: 210px;
+    }
+    /* section end */
+}
+@media (max-width: 700px){
+    .nav__info{
+        width: 260px;
+        padding: 35px 20px;
+    }
+    .info__item{
+        padding: 12px 0;
+        font-size: 17px;
+    }
+    /* nav end */
+    /* intro start */
+    .intro__title{
+        font-size: 45px;
+        line-height: 100%;
+    }
+    .intro__sub{
+        font-size: 20px;
+        line-height: 100%;
+    }
+    .intro__text{
+        font-size: 13px;
+    }
+    .intro__price{
+        width: 180px;
+        height: 70px;
+        font-size: 35px;
+    }
+    .intro__link{
+        width: 140px;
+        height: 35px;
+        font-size: 15px;
+    }
+    /* intro end */
+    /* sec start */
+    .card{
+        width: 210px;
+        height: 295px;
+    }
+    .card_img{
+        width: 190px;
+        height: 150px;
+    }
+    .card__title{
+        width: 190px;
+        font-size: 15px;
+    }
+    .card__text{
+        width: 190px;
+        font-size: 11px;
+    }
+    /* sec end */
+    /* footer start */
+    .map__title{
+        font-size: 30px;
+    }
+    .map{
+        height: 350px;
+    }
+    .section{
+        margin-bottom: 15px;
+    }
+    /* footer end */
+}
+@media (max-width: 600px){
+    .sub_nav{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sub__info span{
+        font-size: 12px;
+    }
+    .map_sign{
+        font-size: 12px;
+    }
+    .sub_item{
+        font-size: 12px;
+        margin-left: 10px;
+        line-height: 120%;
+    }
+    .nav__logo{
+        width: 135px;
+        height: 40px;
+        font-size: 20px;
+        margin: 3px 0;
+    }
+    .menu{
+        font-size: 22px;
+    }
+    /* nav end */
+    /* section start */
+    .sec__link{
+        font-size: 15px;
+    }
+    /* section end */
+    /* footer start */
+    .map__title{
+        font-size: 25px;
+    }
+    .map{
+        height: 300px;
+    }
+    /* footer end */
+}
+@media (max-width: 550px){
+    .intro{
+        height: 470px;
+    }
+    
+    /* intro end */
+    
+}
+@media (max-width: 500px){
+    .intro{
+        height: 430px;
+    }
+    .intro__title{
+        font-size: 37px;
+    }
+    .intro__sub{
+        font-size: 18px;
+    }
+    .intro__text{
+        margin-bottom: 20px;
+    }
+    .intro__price{
+        width: 155px;
+        height: 55px;
+        font-size: 30px;
+    }
+    .intro__link{
+        width: 120px;
+        font-size: 14px;
+    }
+    /* intro end */
+    /* footer start */
+    .map__title{
+        font-size: 20px;
+    }
+    .map{
+        height: 250px;
+    }
+    .section{
+        margin-bottom: 0;
+    }
+    .footer{
+        height: 140px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .footer__tel{
+        font-size: 15px;
+    }
+    .footer__link{
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .creator{
+        height: 40px;
+    }
+    .creator__link{
+        font-size: 12px;
+    }
+    /* footer end */
+}
+@media (max-width: 450px){
+    .sub__header{
+        display: none;
+    }
+    .nav__logo{
+        width: 135px;
+        height: 40px;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .menu{
+        font-size: 26px;
+    }
+    .nav__info{
+        width: 230px;
+        padding: 30px 30px;
+    }
+    .close{
+        top: 10px;
+        left: 10px;
+    }
+    .info__item{
+        padding: 8px 0;
+        font-size: 15px;
+    }
+    .nav__sub_nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub__right{
+        flex-direction: column;
+        align-items: start;
+    }
+    .sub_item{
+        text-align: left;
+        margin: 0;
+        padding: 8px 0;
+        font-size: 15px;
+    }
+    .sub__info{
+        margin: 12px 0;
+    }
+    .sub__info span{
+        font-size: 16px;
+    }
+    .map_sign{
+        font-size: 13px;
+    }
+    .info__item::before{
+        height: 2px;
+    }
+    /* nav end */
+    /* intro start */
+    .intro__text{
+        font-size: 12px;
+    }
+    /* intro end */
+    /* section start */
+    .sec__link{
+        font-size: 13px;
+    }
+    .card{
+        width: 200px;
+        height: 280px;
+    }
+    .card_img{
+        width: 180px;
+        height: 150px;
+    }
+    .card__title{
+        width: 180px;
+        font-size: 14px;
+    }
+    .card__text{
+        width: 180px;
+        font-size: 10px;
+    }
+    /* section end */
+}
+@media (max-width: 400px){
+    .nav__logo{
+        width: 110px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .menu{
+        font-size: 23px;
+    }
+    /* nav end */
+    /* intro start */
+    .intro__title{
+        margin-bottom: 20px;
+    }
+    .intro__info{
+        flex-direction: column;
+    }
+    .intro__price{
+        width: 160px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .intro__link{
+        width: 160px;
+        
+    }
+    /* intro end */
+    /* section start */
+    .sec__link{
+        padding: 8px 5px;
+    }
+    /* section end */
+    /* footer start */
+    .footer{
+        height: 120px;
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    .footer__link{
+        font-size: 13px;
+    }
+    .creator{
+        height: 30px;
+    }
+    .creator__link{
+        font-size: 10px;
+    }
+    .footer__list li{
+        margin-right: 10px;
+    }
+    .footer__list li:last-of-type{
+        margin: 0;
+    }
+    /* footer end */
+}
+@media (max-width: 350px){
+    .nav__logo{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .menu{
+        font-size: 21px;
+    }
+    .nav__info{
+        width: 180px;
+        padding: 30px 20px;
+    }
+    .close{
+        top: 6px;
+        left: 8px;
+        font-size: 22px;
+    }
+    .info__item{
+        padding: 6px 0;
+        font-size: 13px;
+    }
+    .sub__info{
+        margin: 0;
+        margin-top: 15px;
+    }
+    .sub__info span{
+        font-size: 14px;
+    }
+    .map_sign{
+        font-size: 12px;
+    }
+    .sub_item{
+        padding: 6px 0;
+        font-size: 13px;
+    }
+    /* info end */
+    /* sec start */
+    .sec__link{
+        padding: 6px 0px;
+        font-size: 11px;
+    }
+    /* sec end */
+    /* footer start */
+    .map__title{
+        font-size: 18px;
+        padding: 6px 0;
+    }
+    .map{
+        height: 200px;
+    }
+    .footer{
+        height: 110px;
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    .footer__logo{
+        margin: 5px 0;
+    }
+    .footer__tel{
+        font-size: 13px;
+    }
+    .creator{
+        height: 25px;
+    }
+    /* footer end */
+}
