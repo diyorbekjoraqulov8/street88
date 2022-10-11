@@ -402,9 +402,10 @@ body::-webkit-scrollbar-thumb{
     margin: 0;
 }
 .creator{
-    height: 57px;
+    height: 70px;
     background: #1A3406;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -415,5 +416,14 @@ body::-webkit-scrollbar-thumb{
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.contact__link{
+    color: #ffffffff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact__link:last-of-type{
+    margin: 0;
 }
 /* footer end */

@@ -119,7 +119,7 @@
         padding: 10px 0;
     }
     .creator{
-        height: 45px;
+        height: 60px;
     }
     .creator__link{
         font-size: 14px;
@@ -524,7 +524,9 @@
     .intro{
         height: 470px;
     }
-    
+    .contact__link{
+        font-size: 18px;
+    }
     /* intro end */
     
 }
@@ -574,7 +576,7 @@
         line-height: 100%;
     }
     .creator{
-        height: 40px;
+        height: 55px;
     }
     .creator__link{
         font-size: 12px;
@@ -702,16 +704,19 @@
         font-size: 13px;
     }
     .creator{
-        height: 30px;
+        height: 50px;
     }
     .creator__link{
-        font-size: 10px;
+        font-size: 11px;
     }
     .footer__list li{
         margin-right: 10px;
     }
     .footer__list li:last-of-type{
         margin: 0;
+    }
+    .contact__link{
+        font-size: 16px;
     }
     /* footer end */
 }
@@ -778,7 +783,7 @@
         font-size: 13px;
     }
     .creator{
-        height: 25px;
+        height: 45px;
     }
     /* footer end */
 }
