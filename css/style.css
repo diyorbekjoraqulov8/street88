@@ -283,6 +283,10 @@ body::-webkit-scrollbar-thumb{
     border-radius: 4px;
     position: relative;
     margin: 0 auto;
+    transition: 0.3s all ease;
+}
+.card:hover{
+    box-shadow: 0 0 20px #b9b6b6;
 }
 .card_img{
     width: 280px;
@@ -294,12 +298,14 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .card_img::before{
     content: '';
     width: 100%;
     height: 100%;
-    background: #69CF17E5;
+    background: #6acf1782;
     position: absolute;
     top: 0;
     left: 0;
